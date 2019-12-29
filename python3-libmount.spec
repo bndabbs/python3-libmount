@@ -51,3 +51,4 @@ slice and ...
 
 %changelog
 * Sun Dec 29 2019 Bradford Dabbs <bndabbs@gmail.com> - 0.9-1
+- Initial commit
