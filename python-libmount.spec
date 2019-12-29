@@ -11,9 +11,7 @@ URL:            https://github.com/oucs/python-libmount
 Source0:        https://files.pythonhosted.org/packages/source/l/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 
-BuildRequires:  python3
 BuildRequires:  python3-devel
-BuildRequires:  %{py3_dist setuptools}
 
 %description
 python-libmount A library for reading and manipulating filesystem tables, such
