@@ -12,7 +12,7 @@ Source0:        https://files.pythonhosted.org/packages/source/l/%{pypi_name}/%{
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
-BuildRequires:  python3dist(setuptools)
+BuildRequires:  %{py3_dist setuptools}
 
 %description
 python-libmount A library for reading and manipulating filesystem tables, such
